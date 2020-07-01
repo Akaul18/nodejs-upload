@@ -6,10 +6,11 @@
     "author": "kaul <ankurkaul1894@gmail.com>",
     "license": "MIT",
     "scripts": {
-        "dev": "nodemon -r esm index.js"
+        "dev": "nodemon index.js"
     },
     "dependencies": {
         "bcrypt": "^5.0.0",
+        "bcryptjs": "^2.4.3",
         "body-parser": "^1.19.0",
         "cors": "^2.8.5",
         "dotenv": "^8.2.0",
@@ -18,6 +19,7 @@
         "jsonwebtoken": "^8.5.1",
         "mongoose": "^5.9.20",
         "multer": "^1.4.2",
-        "node-sass": "^4.14.1"
+        "node-sass": "^4.14.1",
+        "sanitize": "^2.1.0"
     }
 }
